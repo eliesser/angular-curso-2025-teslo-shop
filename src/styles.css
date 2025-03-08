@@ -2,3 +2,14 @@
 @plugin "daisyui" {
   themes: night --default;
 }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/montserrat/montserrat-medium.ttf") format("truetype");
+}
+
+@layer base {
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+}
